@@ -10,5 +10,11 @@ public class Author {
         this.authorLastName = lastName;
         this.fullName = name + lastName;
     }
+    public String getAuthorName(){
+        return this.authorName;
+    }
+    public String getAuthorLastName(){
+        return this.authorLastName;
+    }
     }
 
